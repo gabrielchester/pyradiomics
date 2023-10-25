@@ -116,7 +116,7 @@ class RadiomicsGLCM(base.RadiomicsFeaturesBase):
 
 def _calculateMatrix(self, voxelCoordinates=None, specified_angle=None):
     r"""
-    Compute GLCM for the input image for a specified angle in 3D.
+    Compute GLCM for the input image for a specified angle
     The calculated GLCM is placed in array P_glcm with shape (i/j, a),
     where i/j = total gray-level bins for image array, a = 1 (specified angle).
     """
